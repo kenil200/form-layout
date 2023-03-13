@@ -2,8 +2,12 @@
 padding: 0px;
 margin: 10px;
 }
-table{
-    /*border: 1px solid black;*/
+body{
+  background-image: url('https://user-images.githubusercontent.com/66914300…31905548-df5878da-4dc5-4f24-bf49-89d3399170a1.JPG');
+}
+
+#table-1{
+  
     padding: 10px; width: 700px;
     height: 800px;
     padding: 10px;
@@ -25,5 +29,10 @@ table{
     box-shadow: 0 5px #666;
     transform: translateY(4px);
   }
+  #table-2 {
+    border: 1px solid;
+  }
+  .th-1 th{
+    border: 2px solid; }
    
 

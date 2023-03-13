@@ -13,14 +13,14 @@
     
     <center>
     <form>
-   <table  > 
+   <table id="table-1"> 
     <tr>
         <td>
             <label>Name:</label>
 
         </td>
         <td>
-            <input type="text" id="Name" name="fname"placeholder="Enter a name"><br><br>
+            <input type="text" id="Nam" name="fname" placeholder="Enter a name" required /><br><br>
         </td>
     </tr>
     <tr>
@@ -29,7 +29,7 @@
 
         </td>
         <td>
-            <input type="email" id="Email" name="Email"placeholder="Enter a email"><br><br>
+            <input type="email" id="Email" name="Email"placeholder="Enter a email" required /><br><br>
         </td>
     </tr>
     <tr>
@@ -38,7 +38,7 @@
 
         </td>
         <td>
-            <input type="text" id="Name" name="number"placeholder="Enter a phone"><br><br>
+            <input type="text" id="num" name="number"placeholder="Enter a phone "required/><br><br>
         </td>
     </tr>
     <tr>
@@ -47,7 +47,7 @@
 
         </td>
         <td>
-            <input type="date" id="Birthdate" name="Birthdate"><br><br>
+            <input type="date" id="birth" name="Birthdate"><br><br>
         </td>
     </tr>
     <td>
@@ -55,7 +55,7 @@
 
     </td>
     <td>
-        <input type="time" id="Appointment time" name="Appointment time"placeholder="Appointment time"><br><br>
+        <input type="time" id="time" name="Appointment time"placeholder="Appointment time"><br><br>
     </td>
 </tr>
 <tr>
@@ -64,7 +64,7 @@
 
 </td>
 <td>
-    <input type="color" id="Favorite color " name="Favorite color "><br><br>
+    <input type="color" id="color" name="Favorite color "><br><br>
 </td>
 </tr>
 <tr>
@@ -75,18 +75,18 @@
     </td>
     <td>
         <ul style="margin-left: -33px;">
-       cash : <input type="radio" id="Favorite color " name="Favorite color "><br><br>
+       cash : <input type="radio" id="pye" name="Favorite color "><br><br>
        </ul>
     </td>
     
     <td>
         <ul style="margin-left: -311px;">
-        Upi : <input type="radio" id="Favorite color " name="Favorite color "><br><br>
+        Upi : <input type="radio" id="pye" name="Favorite color "><br><br>
         </ul>
      </td>
      <td>
         <ul style="margin-left: -169px;">
-        card : <input type="radio" id="Favorite color " name="Favorite color "><br><br>
+        card : <input type="radio" id="pye" name="Favorite color "><br><br>
         </ul>
      </td>
     </tr>
@@ -117,12 +117,24 @@
     </tr>
     <tr>
         <td>
-        <button class="BUTTON">SUBMIT</button>
+        <button class="BUTTON" onclick="myForm()">SUBMIT</button>
         </td>
     </tr>
    </table>
 </center>
 </form>
+<br><br>
+<table border="1" id="table-2" style="border: 1px solid;">
+    <tr class="th-1">
+        <th class=".col">name</th>
+        <th class=".col" >email </th>
+        <th class=".col">Pnum  </th>
+        <th class=".col">BirthDate </th>
+        <th class=".col">App_Time </th>
+        <th class=".col">favcolor  </th>
+        <th class=".col">Pyement </th>
+    </tr>
+</table>
     
     <script src="index.js"></script>
 </body>

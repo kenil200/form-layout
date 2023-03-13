@@ -3,7 +3,11 @@ padding: 0px;
 margin: 10px;
 }
 body{
-  background-image: url('https://user-images.githubusercontent.com/66914300…31905548-df5878da-4dc5-4f24-bf49-89d3399170a1.JPG');
+  background-image: url('old-brick-black-color-wall-260nw-1605128917.png');
+  height: 100%;
+  width: 900px;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #table-1{
@@ -15,9 +19,9 @@ body{
     border-radius: 30px;
     padding: 10px;
     box-shadow: 5px 10px;
-  }
-
-
+    color: white;
+    text-shadow: 0 0 5px rgb(21, 4, 4);
+}
 .BUTTON{
     width: 126px;
     height: 41px;
@@ -33,6 +37,11 @@ body{
     border: 1px solid;
   }
   .th-1 th{
-    border: 2px solid; }
-   
+    border: 2px solid white; 
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-align: center;
+  }
+  
 
